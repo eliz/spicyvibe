@@ -1,7 +1,8 @@
 # 🌶️ Workshop Outline: Getting Spicy with Vibe Coding
 
 ## Part 1: The Vibe Shift (20 Minutes)
-Generated slides at: https://docs.google.com/presentation/d/1Tg1HH8_x1grtkq6wY5iy2Tcr0yASMg-TG6fRn1YRbIM/preview?slide=id.p1
+Generated slides (V1) at: https://docs.google.com/presentation/d/1Tg1HH8_x1grtkq6wY5iy2Tcr0yASMg-TG6fRn1YRbIM/preview?slide=id.p1
+Generated slides (V2) at: https://gemini.google.com/share/d3e851945f0a OR https://docs.google.com/presentation/d/1ng5E-_L4Yt3PGdNoFMd9IZXAssZbG2FARahwd7YiJrg/edit?usp=sharing
 
 - The Concept: Briefly explain the transition from "Syntax-First" to "Intent-First" development.
 
