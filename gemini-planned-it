@@ -1,0 +1,48 @@
+🌶️ Workshop Outline: Getting Spicy with Vibe Coding
+Part 1: The Vibe Shift (20 Minutes)
+The Concept: Briefly explain the transition from "Syntax-First" to "Intent-First" development.
+
+Spec-Driven Development: Why writing a spec is faster than writing a bug. Show a "Bad Prompt" vs. a "Spicy Spec" (Context, Constraints, and Outcome).
+
+Demo: A 5-minute "Speed Build." Use Open Code to generate a small, functional utility (e.g., a CLI tool that summarizes local Markdown files) to show the audience what "Vibe Coding" looks like in real-time.
+
+Part 2: Context Engineering & The "Recipe" (30 Minutes)
+Activity: Participants choose a small project idea (or use a provided prompt like a "Personal Habit Tracker CLI" or a "Markdown-to-HTML Blog Converter").
+
+Task: Instead of coding, they must write a Specification Document (spec.md).
+
+Inputs: Tech stack (TypeScript/Node), file structures, and data types.
+
+Constraints: No external databases (use local JSON), strict error handling.
+
+Step-by-Step: Break the logic down into three distinct phases.
+
+Part 3: Hands-On: Delegating to the Agent (70 Minutes)
+Phase 1: Foundation (30 mins): Use Open Code to initialize the project structure and the primary data models based on the spec.
+
+Phase 4: Feature Iteration (30 mins): Add a "Spicy" feature (e.g., adding a specific search filter or an export-to-PDF function). This is where participants learn to steer the AI when it goes off-course.
+
+Troubleshooting: Mentors walk the floor, helping users "re-contextualize" the AI when the "vibe" gets messy.
+
+Part 4: The Spicy Showcase & Retrospective (30 Minutes)
+The "Vibe Check": A few volunteers show what they built and, more importantly, how they prompted to get there.
+
+Discussion: What was harder than expected? When did the AI hallucinate, and how did a better spec fix it?
+
+Closing: Resources for further exploration (Open Source agents, prompt libraries).
+
+
+Recommended "Spicy" Project Ideas for Attendees:
+The "Daily Standup" Bot: A script that parses a Git log for the last 24 hours and formats it into a Slack-ready update.
+
+Image Metadata Organizer: A tool that reads a folder of images and renames them based on their creation date and dimensions.
+
+Local Knowledge Base Search: A tool that uses fzf logic to search through a directory of Markdown notes.
+
+Pre-Workshop Checklist:
+
+[ ] Send out a "Spec Template" .md file to participants.
+
+[ ] Ensure everyone has an API key (if required by the local setup of Open Code).
+
+[ ] Prepare a "Cheat Sheet" of common Context Engineering keywords (e.g., "Act as...", "Strictly follow...", "Output only code").
