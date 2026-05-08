@@ -1,6 +1,8 @@
 # 🌶️ Workshop Outline: Getting Spicy with Vibe Coding
 
 ## Part 1: The Vibe Shift (20 Minutes)
+Generated slides at: https://docs.google.com/presentation/d/1Tg1HH8_x1grtkq6wY5iy2Tcr0yASMg-TG6fRn1YRbIM/preview?slide=id.p1
+
 - The Concept: Briefly explain the transition from "Syntax-First" to "Intent-First" development.
 
 - Spec-Driven Development: Why writing a spec is faster than writing a bug. Show a "Bad Prompt" vs. a "Spicy Spec" (Context, Constraints, and Outcome).
