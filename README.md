@@ -25,7 +25,7 @@ OpenCode (opencode.ai) is a terminal-based agent. Since it’s 2026, the install
 2. [Exercise 2: Writing code with Plan Mode](./exercises/exercise2.md)
 3. Exercise 3: Spec Driven Development:
     - [Using OpenSpec](./exercises/exercise3a.md) (Requires NodeJS)
-    - [Using SpecKit](./exercises/exercise3a.md) (Requires Python)
+    - [Using SpecKit](./exercises/exercise3b.md) (Requires Python)
 4. [Bonus Exercises](./exercises/bonus.md)
 
 ## Some Extra Advice
