@@ -43,7 +43,7 @@
 
     You can see the Constitution file here: `.specify/memory/constitution.md`
 
-9. Use this promot to establish what you want to build:
+9. Use this prompt to establish what you want to build:
 
     ```
     /speckit.specify Build a small web app where a user types in their current mood (e.g., 'Tired', 'Celebratory', 'Lazy') and the app suggests a 3-ingredient recipe.
