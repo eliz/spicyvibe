@@ -1,4 +1,4 @@
-# Exercise 3: Spec Driven Development
+# Exercise 3: Spec Driven Development (OpenSpec)
 
 1. Let's create a new project folder & `cd` into the new project folder:
 

@@ -1,4 +1,4 @@
-# Exercise 2: Do some planning
+# Exercise 2: Writing code with Plan Mode
 
 1. After installing OpenCode, open your terminal and change to your working directory (you can create a new folder too).
 
