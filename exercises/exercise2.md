@@ -33,11 +33,11 @@ Ensure the following have been installed and set up beforehand:
 
    <p>Enter `opencode` and you should see the OpenCode terminal as below:
 
-    <img src="../images/opencode.png" alt="OpenCode" width="40%">
+    <img src="../images/opencode.png" alt="OpenCode" width="50%">
 
-   <p>For Macbook users, you can open the terminal from the folder itself
+   For Macbook users, you can open the terminal from the folder itself
 
-    <img src="../images/mb-open-terminal-from-folder.png" alt="Open Terminal from Folder" width="20%">
+    <img src="../images/mb-open-terminal-from-folder.png" alt="Open Terminal from Folder" width="50%">
 
    And enter `opencode`
 
