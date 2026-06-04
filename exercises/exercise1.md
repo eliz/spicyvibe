@@ -1,19 +1,44 @@
 # Exercise 1: Configure OpenCode
 
-1. Press: `ctrl` + `p` to access the **Commands** option.
+1. Open terminal (for Mac users), command prompt (for windows users), or VS Code terminal
+   <p>Enter `opencode` and you should see the OpenCode terminal as below:
 
-2. Select `Connect Provider` to connect to a LLM (Large Language Model) provider.
+    <img src="../images/opencode.png" alt="OpenCode" width="70%">
 
-    > **Pro-Tip:** Type `/connect` to get to this command
 
-3. Select one of the Providers.
+2. In the OpenCode terminal, do a `ctrl` + `p` to access the **Commands** option.
+   <p>Select `Connect Provider` to connect to a LLM (Large Language Model) provider.
 
-4. For the workshop, recommend OpenCode Zen. It’s a pre-configured, curated model list that doesn't require individual OpenAI/Anthropic keys—great for a group setting. Register for a free account at [OpenCode Zen](https://opencode.ai/zen) to use the Free models.
+   <img src="../images/opencode_connectProvider.png" alt="Connect Provider" width="70%">
 
-5. Authorize: Follow the link to <opencode.ai/auth> to sign in and grab your session token.
+    > **Alternatively:** Enter `/connect` to get to this command
 
-6. After you have connected to your LLM provider, go to **Commands** option and select `Switch Model` to select your LLM model.
+    <img src="../images/opencode_connectCommand.png" alt="Connect Command" width="70%">
 
-7. Make sure to pick something that is `FREE`.
 
-8. Type: `exit` to get out of OpenCode.
+3. Choose a Provider by pressing the ↑/↓ keys (for this workshop, we recommend to use [OpenCode Zen](https://opencode.ai/zen))
+
+   > **Note:** OpenCode Zen is a pre-configured, curated model list that doesn't require individual OpenAI/Anthropic keys, which is great for a group setting!
+
+   <p>
+   Register for a free account to use the free models. Copy the API key for setup in the next step!
+
+    <img src="../images/opencode_provider.png" alt="OpenCode Provider" width="70%">
+
+
+4. Select `OpenCode Zen` in the OpenCode terminal, and paste in the API key you've copied
+
+    <img src="../images/opencodezen_setup.png" alt="OpenCode Setup" width="70%">
+
+5. Once setup is done, do a `ctrl` + `p` to access the **Commands** option and enter `Switch Model` to select your LLM model.
+
+   <img src="../images/opencode_switchModel1.png" alt="OpenCode - Switch Model" width="70%">
+
+   > **Note:** Make sure to pick something that is `FREE`.
+
+   <img src="../images/opencode_switchModel2.png" alt="OpenCode - Switch Model" width="70%">
+
+
+6. To get out of OpenCode, enter `exit` in the OpenCode terminal
+   
+   <img src="../images/opencode_exitCommand.png" alt="OpenCode - Exit" width="70%">
