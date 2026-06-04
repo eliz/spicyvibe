@@ -35,8 +35,7 @@ Ensure the following have been installed and set up beforehand:
 
     <img src="../images/opencode.png" alt="OpenCode" width="40%">
 
-   <p>
-   For Macbook users, you can open the terminal from the folder itself
+   <p>For Macbook users, you can open the terminal from the folder itself
 
     <img src="../images/mb-open-terminal-from-folder.png" alt="Open Terminal from Folder" width="20%">
 
