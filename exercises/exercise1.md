@@ -1,5 +1,9 @@
 # Exercise 1: Configure OpenCode
 
+For this workshop, we will be using `OpenCode`. Thus, we will need to install and set up `OpenCode` first.
+
+### Steps:
+
 1. Open terminal (for Mac users), command prompt (for windows users), or VS Code terminal
    <p>Enter `opencode` and you should see the OpenCode terminal as below:
 
