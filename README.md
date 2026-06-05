@@ -52,8 +52,6 @@ After every important milestone, it makes sense to just make a Git commit to pre
 
 ### 4. Secure coding habits
 
-![opencode_connectProvider](images/opencode_connectProvider.png)
-
 Create a `.gitignore` file to ensure that you don't accidentally commit sensitive files to Git.
 
 - Do not commit your `.env`

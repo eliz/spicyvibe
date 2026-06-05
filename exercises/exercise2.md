@@ -16,13 +16,13 @@ Ensure the following have been installed and set up beforehand:
 
 ### Steps:
 
-1. Create a folder `vc_exercises`, and create another folder 'ex1' inside this folder
+1. Create a folder `vc_exercises`, and create another folder `ex1` inside this folder
 
    > **Alternatively:** You can run the following:
 
     ```bash
     cd ~
-    mkdir -p /Users/YOUR-MACHINE-USERNAME/desktop/vc_exercises/ex1
+    mkdir -p /Users/YOUR-MACHINE-USERNAME/desktop/vc_exercises/ex2
     ```
 
 2. Run the following command in terminal (for Mac users), command prompt (for windows users), or VS Code terminal
