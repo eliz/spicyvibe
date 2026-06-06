@@ -1,28 +1,49 @@
 # Exercise 3: Spec Driven Development (SpecKit)
 
-1. Let's create a new project folder & `cd` into the new project folder:
+Please note that this exercise is for `Python` environment only! For users using the `Javascript` environment, refer to [exercise3a](exercise3a.md) instead.
+
+### Pre-Requisites:
+Ensure the following have been installed and set up beforehand:
+
+- [HomeBrew](https://brew.sh/): for MacOS users
+- [NodeJs](https://nodejs.org/en/download): for Windows users
+- [Git](https://git-scm.com/install/)
+
+
+### Steps:
+
+1. Create a folder `vc_exercises`, and create another folder `ex2` inside this folder
+
+   > **Alternatively:** You can run the following:
 
     ```bash
     cd ~
-    mkdir -p workspace/vibecode2
-    cd workspace/vibecode2
+    mkdir -p /Users/YOUR-MACHINE-USERNAME/desktop/vc_exercises/ex1
     ```
 
-2. Initialize Git in this folder:
+2. Run the following command in terminal (for Mac users), command prompt (for windows users), or VS Code terminal
+
+    ```bash
+    cd /Users/YOUR-MACHINE-USERNAME/desktop/vc_exercises/ex2
+    ```
+
+   <p>Enter `opencode` and you should see the OpenCode terminal as below:
+
+    <img src="../images/opencode.png" alt="OpenCode" width="50%">
+
+   For Macbook users, you can open the terminal from the folder itself and enter `opencode`
+
+3. In your terminal, run the command below to initialise Git in this folder:
 
     ```bash
     git init
     ```
 
-3. Let's install [SpecKit](https://github.com/github/spec-kit).
+4. Now, let's install [SpecKit](https://github.com/github/spec-kit) and initialise `SpecKit` in this project folder
 
     ```bash
     uv tool install specify-cli --from git+https://github.com/github/spec-kit.git@v0.8.18
-    ```
 
-4. Initialize SpecKit in the project folder:
-
-    ```bash
     specify init --here
     ```
 
@@ -31,11 +52,11 @@
     - Press `<up>` or `<down>` key to find `opencode`. 
     - Press `<enter>` to confirm the selection.
 
-6. Select your script type (`sh` for bash/zsh or `ps` for PowerShell)
+7. Select your script type (`sh` for bash/zsh or `ps` for PowerShell)
 
-7. Start **OpenCode** from this project folder.
+8. Start **OpenCode** from this project folder.
 
-8. Use this prompt to establish project principles:
+9. Use this prompt to establish project principles:
 
     ```
     /speckit.constitution Create principles focused on code quality, testing standards, user experience consistency, and performance requirements
@@ -43,33 +64,41 @@
 
     You can see the Constitution file here: `.specify/memory/constitution.md`
 
-9. Use this prompt to establish what you want to build:
+10. Use this prompt to establish what you want to build:
 
     ```
     /speckit.specify Build a small web app where a user types in their current mood (e.g., 'Tired', 'Celebratory', 'Lazy') and the app suggests a 3-ingredient recipe.
     ```
 
-8. Review the artifacts in the `specs/001-mood-recipe` folder. Use VSCode to open the project folder to review the changes.
+11. Review the artifacts in the `specs/001-mood-recipe` folder. Use VSCode to open the project folder to review the changes.
 
-9. Chances are, the proposal does not include an image of the recipe.
+12. Chances are, the proposal does not include an image of the recipe.
 
     ```
     I would like to include a photo of the recipe in the display page.
     ```
 
-10. Use the `/speckit.plan` command to provide your tech stack and architecture choices.
+13. Use the `/speckit.plan` command to provide your tech stack and architecture choices.
 
     ```
     /speckit.plan The application uses FastAPI with minimal number of libraries. Use vanilla HTML, CSS, and JavaScript as much as possible. Use images from Unsplash and metadata is stored in a local JSON database.
     ```
 
-11. Review the new artifacts in `specs/001-mood-recipe` folder. Use VSCode to open the project folder to review the changes.
+14. Review the new artifacts in `specs/001-mood-recipe` folder. Use VSCode to open the project folder to review the changes.
 
-12. Run `/speckit.tasks` to start preparing the tasks.
+15. Run the command below to start preparing the tasks.
 
-13. Run `/speckit.implement` to start implementing.
+    ```bash
+    /speckit.tasks
+    ```
 
-12. Test out the app in a separate terminal.
+16. Run the command below to start implementing.
+
+    ```bash
+    /speckit.implement
+    ```
+
+17. Test out the app in a separate terminal.
 
     Follow the instructions in `specs/001-mood-recipe/quickstart.md`:
 
@@ -79,4 +108,4 @@
     ```
 
     Open browser to <http://localhost:8000>.
-
+    

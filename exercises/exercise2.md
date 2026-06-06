@@ -1,16 +1,48 @@
 # Exercise 2: Writing code with Plan Mode
 
-1. After installing OpenCode, open your terminal and change to your working directory (you can create a new folder too).
+Now that we've installed and setup `OpenCode`, we will be writing first piece of code with `OpenCode`!
+
+### Pre-Requisites:
+Ensure the following have been installed and set up beforehand:
+
+- [HomeBrew](https://brew.sh/): for MacOS users
+- [NodeJs](https://nodejs.org/en/download): for Windows users
+- [Git](https://git-scm.com/install/)
+
+<u>Python Users:</u>
+- [python3](https://www.python.org/downloads/)
+- [pip](https://pip.pypa.io/en/stable/installation/) or [uv](https://docs.astral.sh/uv/guides/install-python/)
+
+
+### Steps:
+
+1. Create a folder `vc_exercises`, and create another folder `ex1` inside this folder
+
+   > **Alternatively:** You can run the following:
 
     ```bash
     cd ~
-    mkdir -p workspace/vibecode1
-    cd workspace/vibecode1
+    mkdir -p /Users/YOUR-MACHINE-USERNAME/desktop/vc_exercises/ex2
     ```
 
-2. Type `opencode` to start the OpenCode TUI.
+2. Run the following command in terminal (for Mac users), command prompt (for windows users), or VS Code terminal
 
-3. Initialize Project: Navigate to your project folder and run opencode `/init`. This creates an AGENTS.md file, which is the "brain" OpenCode uses to understand your specific codebase.
+    ```bash
+    cd /Users/YOUR-MACHINE-USERNAME/desktop/vc_exercises/ex1
+    ```
+
+   <p>Enter `opencode` and you should see the OpenCode terminal as below:
+
+    <img src="../images/opencode.png" alt="OpenCode" width="50%">
+
+   For Macbook users, you can open the terminal from the folder itself
+
+    <img src="../images/mb-open-terminal-from-folder.png" alt="Open Terminal from Folder" width="50%">
+
+   And enter `opencode`
+
+3. In your OpenCode terminal, run `/init`.<p>
+   This creates an `AGENTS.md`, which is the "brain" OpenCode uses to understand your specific codebase.
 
 ## Plan Mode
 
@@ -18,9 +50,9 @@ OpenCode has a *Plan mode* that disables its ability to make changes and instead
 
 1. Press the `<tab>` key to enter *Plan Mode*.
 
-2. Let's try to build a simple tic tac toe game.
+2. Let's try to build a simple tic-tac-toe game.
 
-    Copy and paste this into your OpenCode chat box:
+    Copy and paste the following instructions into your OpenCode terminal:
 
     ```
     I want to build a simple Tic Tac Toe game that runs in the terminal.
